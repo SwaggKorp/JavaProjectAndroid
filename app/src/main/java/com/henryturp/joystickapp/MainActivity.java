@@ -150,7 +150,6 @@ public class MainActivity extends Activity {
         playerTimer = new Timer();
         playerTimer.scheduleAtFixedRate(playerTimerTask, 0, playDelay);
 
-        fileManager.readFile("lol"); // load a map at the start
 
         /********************** LISTENERS FROM HERE ON ******************/
 
